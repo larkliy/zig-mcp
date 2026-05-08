@@ -1,0 +1,3339 @@
+```
+          .offset_3f_bug,
+            .scalar_atomics,
+            .scalar_flat_scratch_insts,
+            .scalar_stores,
+            .smem_to_vector_write_hazard,
+            .vcmpx_exec_war_hazard,
+            .vcmpx_permlane_hazard,
+            .vmem_to_scalar_write_hazard,
+            .xnack_support,
+        }),
+    };
+    pub const gfx1011: CpuModel = .{
+        .name = "gfx1011",
+        .llvm_name = "gfx1011",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .ds_src2_insts,
+            .flat_segment_offset_bug,
+            .get_wave_id_inst,
+            .gfx10,
+            .inst_fwd_prefetch_bug,
+            .lds_branch_vmem_war_hazard,
+            .lds_misaligned_bug,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .negative_unaligned_scratch_offset_bug,
+            .nsa_clause_bug,
+            .nsa_encoding,
+            .nsa_to_vmem_bug,
+            .offset_3f_bug,
+            .scalar_atomics,
+            .scalar_flat_scratch_insts,
+            .scalar_stores,
+            .smem_to_vector_write_hazard,
+            .vcmpx_exec_war_hazard,
+            .vcmpx_permlane_hazard,
+            .vmem_to_scalar_write_hazard,
+            .xnack_support,
+        }),
+    };
+    pub const gfx1012: CpuModel = .{
+        .name = "gfx1012",
+        .llvm_name = "gfx1012",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .ds_src2_insts,
+            .flat_segment_offset_bug,
+            .get_wave_id_inst,
+            .gfx10,
+            .inst_fwd_prefetch_bug,
+            .lds_branch_vmem_war_hazard,
+            .lds_misaligned_bug,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .negative_unaligned_scratch_offset_bug,
+            .nsa_clause_bug,
+            .nsa_encoding,
+            .nsa_to_vmem_bug,
+            .offset_3f_bug,
+            .scalar_atomics,
+            .scalar_flat_scratch_insts,
+            .scalar_stores,
+            .smem_to_vector_write_hazard,
+            .vcmpx_exec_war_hazard,
+            .vcmpx_permlane_hazard,
+            .vmem_to_scalar_write_hazard,
+            .xnack_support,
+        }),
+    };
+    pub const gfx1013: CpuModel = .{
+        .name = "gfx1013",
+        .llvm_name = "gfx1013",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .ds_src2_insts,
+            .flat_segment_offset_bug,
+            .get_wave_id_inst,
+            .gfx10,
+            .gfx10_a_encoding,
+            .inst_fwd_prefetch_bug,
+            .lds_branch_vmem_war_hazard,
+            .lds_misaligned_bug,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .negative_unaligned_scratch_offset_bug,
+            .nsa_clause_bug,
+            .nsa_encoding,
+            .nsa_to_vmem_bug,
+            .offset_3f_bug,
+            .scalar_atomics,
+            .scalar_flat_scratch_insts,
+            .scalar_stores,
+            .smem_to_vector_write_hazard,
+            .vcmpx_exec_war_hazard,
+            .vcmpx_permlane_hazard,
+            .vmem_to_scalar_write_hazard,
+            .xnack_support,
+        }),
+    };
+    pub const gfx1030: CpuModel = .{
+        .name = "gfx1030",
+        .llvm_name = "gfx1030",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1031: CpuModel = .{
+        .name = "gfx1031",
+        .llvm_name = "gfx1031",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1032: CpuModel = .{
+        .name = "gfx1032",
+        .llvm_name = "gfx1032",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1033: CpuModel = .{
+        .name = "gfx1033",
+        .llvm_name = "gfx1033",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1034: CpuModel = .{
+        .name = "gfx1034",
+        .llvm_name = "gfx1034",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1035: CpuModel = .{
+        .name = "gfx1035",
+        .llvm_name = "gfx1035",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1036: CpuModel = .{
+        .name = "gfx1036",
+        .llvm_name = "gfx1036",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx10_1_generic: CpuModel = .{
+        .name = "gfx10_1_generic",
+        .llvm_name = "gfx10-1-generic",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .ds_src2_insts,
+            .flat_segment_offset_bug,
+            .get_wave_id_inst,
+            .gfx10,
+            .inst_fwd_prefetch_bug,
+            .lds_branch_vmem_war_hazard,
+            .lds_misaligned_bug,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .negative_unaligned_scratch_offset_bug,
+            .nsa_clause_bug,
+            .nsa_encoding,
+            .nsa_to_vmem_bug,
+            .offset_3f_bug,
+            .requires_cov6,
+            .scalar_atomics,
+            .scalar_flat_scratch_insts,
+            .scalar_stores,
+            .smem_to_vector_write_hazard,
+            .vcmpx_exec_war_hazard,
+            .vcmpx_permlane_hazard,
+            .vmem_to_scalar_write_hazard,
+            .xnack_support,
+        }),
+    };
+    pub const gfx10_3_generic: CpuModel = .{
+        .name = "gfx10_3_generic",
+        .llvm_name = "gfx10-3-generic",
+        .features = featureSet(&[_]Feature{
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .gfx10,
+            .gfx10_3_insts,
+            .gfx10_a_encoding,
+            .gfx10_b_encoding,
+            .ldsbankcount32,
+            .nsa_encoding,
+            .requires_cov6,
+            .shader_cycles_register,
+        }),
+    };
+    pub const gfx1100: CpuModel = .{
+        .name = "gfx1100",
+        .llvm_name = "gfx1100",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_intra_fwd_bug,
+            .memory_atomic_fadd_f32_denormal_support,
+            .msaa_load_dst_sel_bug,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .priv_enabled_trap2_nop_bug,
+            .real_true16,
+            .shader_cycles_register,
+            .user_sgpr_init16_bug,
+            .valu_trans_use_hazard,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1101: CpuModel = .{
+        .name = "gfx1101",
+        .llvm_name = "gfx1101",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_intra_fwd_bug,
+            .memory_atomic_fadd_f32_denormal_support,
+            .msaa_load_dst_sel_bug,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .priv_enabled_trap2_nop_bug,
+            .real_true16,
+            .shader_cycles_register,
+            .valu_trans_use_hazard,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1102: CpuModel = .{
+        .name = "gfx1102",
+        .llvm_name = "gfx1102",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_intra_fwd_bug,
+            .memory_atomic_fadd_f32_denormal_support,
+            .msaa_load_dst_sel_bug,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .priv_enabled_trap2_nop_bug,
+            .real_true16,
+            .shader_cycles_register,
+            .user_sgpr_init16_bug,
+            .valu_trans_use_hazard,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1103: CpuModel = .{
+        .name = "gfx1103",
+        .llvm_name = "gfx1103",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_intra_fwd_bug,
+            .memory_atomic_fadd_f32_denormal_support,
+            .msaa_load_dst_sel_bug,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .priv_enabled_trap2_nop_bug,
+            .real_true16,
+            .shader_cycles_register,
+            .valu_trans_use_hazard,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1150: CpuModel = .{
+        .name = "gfx1150",
+        .llvm_name = "gfx1150",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .point_sample_accel,
+            .required_export_priority,
+            .salu_float,
+            .shader_cycles_register,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1151: CpuModel = .{
+        .name = "gfx1151",
+        .llvm_name = "gfx1151",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .point_sample_accel,
+            .required_export_priority,
+            .salu_float,
+            .shader_cycles_register,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1152: CpuModel = .{
+        .name = "gfx1152",
+        .llvm_name = "gfx1152",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .point_sample_accel,
+            .required_export_priority,
+            .salu_float,
+            .shader_cycles_register,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1153: CpuModel = .{
+        .name = "gfx1153",
+        .llvm_name = "gfx1153",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .required_export_priority,
+            .salu_float,
+            .shader_cycles_register,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx11_generic: CpuModel = .{
+        .name = "gfx11_generic",
+        .llvm_name = "gfx11-generic",
+        .features = featureSet(&[_]Feature{
+            .architected_flat_scratch,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot5_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .flat_atomic_fadd_f32_inst,
+            .gfx11,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_intra_fwd_bug,
+            .memory_atomic_fadd_f32_denormal_support,
+            .msaa_load_dst_sel_bug,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .priv_enabled_trap2_nop_bug,
+            .required_export_priority,
+            .requires_cov6,
+            .shader_cycles_register,
+            .user_sgpr_init16_bug,
+            .valu_trans_use_hazard,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1200: CpuModel = .{
+        .name = "gfx1200",
+        .llvm_name = "gfx1200",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .architected_sgprs,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_buffer_pk_add_bf16_inst,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_global_pk_add_bf16_inst,
+            .bvh_dual_bvh_8_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot11_insts,
+            .dot12_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .extended_image_insts,
+            .flat_atomic_fadd_f32_inst,
+            .fp8_conversion_insts,
+            .gfx12,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .pseudo_scalar_trans,
+            .restricted_soffset,
+            .salu_float,
+            .scalar_dwordx3_loads,
+            .shader_cycles_hi_lo_registers,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1201: CpuModel = .{
+        .name = "gfx1201",
+        .llvm_name = "gfx1201",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .architected_sgprs,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_buffer_pk_add_bf16_inst,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_global_pk_add_bf16_inst,
+            .bvh_dual_bvh_8_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot11_insts,
+            .dot12_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .extended_image_insts,
+            .flat_atomic_fadd_f32_inst,
+            .fp8_conversion_insts,
+            .gfx12,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .pseudo_scalar_trans,
+            .restricted_soffset,
+            .salu_float,
+            .scalar_dwordx3_loads,
+            .shader_cycles_hi_lo_registers,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx1250: CpuModel = .{
+        .name = "gfx1250",
+        .llvm_name = "gfx1250",
+        .features = featureSet(&[_]Feature{
+            .@"64_bit_literals",
+            .architected_flat_scratch,
+            .architected_sgprs,
+            .ashr_pk_insts,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_buffer_pk_add_bf16_inst,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_fmin_fmax_flat_f64,
+            .atomic_fmin_fmax_global_f64,
+            .atomic_global_pk_add_bf16_inst,
+            .bf16_cvt_insts,
+            .bf16_trans_insts,
+            .bitop3_insts,
+            .cumode,
+            .cvt_pk_f16_f32_inst,
+            .dl_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dpp_src1_sgpr,
+            .flat_atomic_fadd_f32_inst,
+            .flat_buffer_global_fadd_f64_inst,
+            .fmacf64_inst,
+            .fp8_conversion_insts,
+            .fp8e5m3_insts,
+            .gfx12,
+            .gfx1250_insts,
+            .kernarg_preload,
+            .lds_barrier_arrive_atomic,
+            .ldsbankcount32,
+            .lshl_add_u64_inst,
+            .max_hard_clause_length_63,
+            .memory_atomic_fadd_f32_denormal_support,
+            .minimum3_maximum3_pkf16,
+            .packed_fp32_ops,
+            .packed_tid,
+            .permlane16_swap,
+            .prng_inst,
+            .pseudo_scalar_trans,
+            .restricted_soffset,
+            .salu_float,
+            .scalar_dwordx3_loads,
+            .setprio_inc_wg_inst,
+            .shader_cycles_hi_lo_registers,
+            .sramecc_support,
+            .transpose_load_f4f6_insts,
+            .vcmpx_permlane_hazard,
+            .wait_xcnt,
+            .wavefrontsize32,
+        }),
+    };
+    pub const gfx12_generic: CpuModel = .{
+        .name = "gfx12_generic",
+        .llvm_name = "gfx12-generic",
+        .features = featureSet(&[_]Feature{
+            .allocate1_5xvgprs,
+            .architected_flat_scratch,
+            .architected_sgprs,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_buffer_pk_add_bf16_inst,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_global_pk_add_bf16_inst,
+            .bvh_dual_bvh_8_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot11_insts,
+            .dot12_insts,
+            .dot7_insts,
+            .dot8_insts,
+            .dot9_insts,
+            .dpp_src1_sgpr,
+            .extended_image_insts,
+            .flat_atomic_fadd_f32_inst,
+            .fp8_conversion_insts,
+            .gfx12,
+            .image_insts,
+            .ldsbankcount32,
+            .memory_atomic_fadd_f32_denormal_support,
+            .nsa_encoding,
+            .packed_tid,
+            .partial_nsa_encoding,
+            .pseudo_scalar_trans,
+            .requires_cov6,
+            .restricted_soffset,
+            .salu_float,
+            .scalar_dwordx3_loads,
+            .shader_cycles_hi_lo_registers,
+            .vcmpx_permlane_hazard,
+        }),
+    };
+    pub const gfx600: CpuModel = .{
+        .name = "gfx600",
+        .llvm_name = "gfx600",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .half_rate_64_ops,
+            .southern_islands,
+        }),
+    };
+    pub const gfx601: CpuModel = .{
+        .name = "gfx601",
+        .llvm_name = "gfx601",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+    pub const gfx602: CpuModel = .{
+        .name = "gfx602",
+        .llvm_name = "gfx602",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+    pub const gfx700: CpuModel = .{
+        .name = "gfx700",
+        .llvm_name = "gfx700",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sea_islands,
+        }),
+    };
+    pub const gfx701: CpuModel = .{
+        .name = "gfx701",
+        .llvm_name = "gfx701",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .half_rate_64_ops,
+            .ldsbankcount32,
+            .sea_islands,
+        }),
+    };
+    pub const gfx702: CpuModel = .{
+        .name = "gfx702",
+        .llvm_name = "gfx702",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .ldsbankcount16,
+            .sea_islands,
+        }),
+    };
+    pub const gfx703: CpuModel = .{
+        .name = "gfx703",
+        .llvm_name = "gfx703",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount16,
+            .sea_islands,
+        }),
+    };
+    pub const gfx704: CpuModel = .{
+        .name = "gfx704",
+        .llvm_name = "gfx704",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sea_islands,
+        }),
+    };
+    pub const gfx705: CpuModel = .{
+        .name = "gfx705",
+        .llvm_name = "gfx705",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount16,
+            .sea_islands,
+        }),
+    };
+    pub const gfx801: CpuModel = .{
+        .name = "gfx801",
+        .llvm_name = "gfx801",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .half_rate_64_ops,
+            .ldsbankcount32,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+            .xnack_support,
+        }),
+    };
+    pub const gfx802: CpuModel = .{
+        .name = "gfx802",
+        .llvm_name = "gfx802",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sgpr_init_bug,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const gfx803: CpuModel = .{
+        .name = "gfx803",
+        .llvm_name = "gfx803",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const gfx805: CpuModel = .{
+        .name = "gfx805",
+        .llvm_name = "gfx805",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sgpr_init_bug,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const gfx810: CpuModel = .{
+        .name = "gfx810",
+        .llvm_name = "gfx810",
+        .features = featureSet(&[_]Feature{
+            .image_gather4_d16_bug,
+            .image_store_d16_bug,
+            .ldsbankcount16,
+            .volcanic_islands,
+            .xnack_support,
+        }),
+    };
+    pub const gfx900: CpuModel = .{
+        .name = "gfx900",
+        .llvm_name = "gfx900",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mad_mix_insts,
+        }),
+    };
+    pub const gfx902: CpuModel = .{
+        .name = "gfx902",
+        .llvm_name = "gfx902",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mad_mix_insts,
+        }),
+    };
+    pub const gfx904: CpuModel = .{
+        .name = "gfx904",
+        .llvm_name = "gfx904",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .fma_mix_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+        }),
+    };
+    pub const gfx906: CpuModel = .{
+        .name = "gfx906",
+        .llvm_name = "gfx906",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot7_insts,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .fma_mix_insts,
+            .gds,
+            .gfx9,
+            .half_rate_64_ops,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .sramecc_support,
+        }),
+    };
+    pub const gfx908: CpuModel = .{
+        .name = "gfx908",
+        .llvm_name = "gfx908",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .atomic_buffer_global_pk_add_f16_no_rtn_insts,
+            .atomic_fadd_no_rtn_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot3_insts,
+            .dot4_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .fma_mix_insts,
+            .gds,
+            .gfx9,
+            .half_rate_64_ops,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mai_insts,
+            .mfma_inline_literal_bug,
+            .pk_fmac_f16_inst,
+            .sramecc_support,
+        }),
+    };
+    pub const gfx909: CpuModel = .{
+        .name = "gfx909",
+        .llvm_name = "gfx909",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mad_mix_insts,
+        }),
+    };
+    pub const gfx90a: CpuModel = .{
+        .name = "gfx90a",
+        .llvm_name = "gfx90a",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_fmin_fmax_flat_f64,
+            .atomic_fmin_fmax_global_f64,
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot3_insts,
+            .dot4_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .dpp_64bit,
+            .flat_buffer_global_fadd_f64_inst,
+            .fma_mix_insts,
+            .fmacf64_inst,
+            .full_rate_64_ops,
+            .gfx9,
+            .gfx90a_insts,
+            .image_insts,
+            .kernarg_preload,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mai_insts,
+            .packed_fp32_ops,
+            .packed_tid,
+            .pk_fmac_f16_inst,
+            .sramecc_support,
+        }),
+    };
+    pub const gfx90c: CpuModel = .{
+        .name = "gfx90c",
+        .llvm_name = "gfx90c",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .mad_mix_insts,
+        }),
+    };
+    pub const gfx942: CpuModel = .{
+        .name = "gfx942",
+        .llvm_name = "gfx942",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .agent_scope_fine_grained_remote_memory_atomics,
+            .architected_flat_scratch,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_fmin_fmax_flat_f64,
+            .atomic_fmin_fmax_global_f64,
+            .atomic_global_pk_add_bf16_inst,
+            .back_off_barrier,
+            .cvt_fp8_vop1_bug,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot3_insts,
+            .dot4_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .dpp_64bit,
+            .flat_atomic_fadd_f32_inst,
+            .flat_buffer_global_fadd_f64_inst,
+            .fma_mix_insts,
+            .fmacf64_inst,
+            .fp8_insts,
+            .full_rate_64_ops,
+            .gfx9,
+            .gfx90a_insts,
+            .gfx940_insts,
+            .kernarg_preload,
+            .ldsbankcount32,
+            .lshl_add_u64_inst,
+            .mai_insts,
+            .memory_atomic_fadd_f32_denormal_support,
+            .packed_fp32_ops,
+            .packed_tid,
+            .pk_fmac_f16_inst,
+            .sramecc_support,
+            .xf32_insts,
+        }),
+    };
+    pub const gfx950: CpuModel = .{
+        .name = "gfx950",
+        .llvm_name = "gfx950",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize163840,
+            .agent_scope_fine_grained_remote_memory_atomics,
+            .architected_flat_scratch,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_buffer_pk_add_bf16_inst,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_fmin_fmax_flat_f64,
+            .atomic_fmin_fmax_global_f64,
+            .atomic_global_pk_add_bf16_inst,
+            .back_off_barrier,
+            .bf16_cvt_insts,
+            .bitop3_insts,
+            .dl_insts,
+            .dot10_insts,
+            .dot12_insts,
+            .dot13_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot3_insts,
+            .dot4_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .dpp_64bit,
+            .flat_atomic_fadd_f32_inst,
+            .flat_buffer_global_fadd_f64_inst,
+            .fma_mix_insts,
+            .fmacf64_inst,
+            .fp8_conversion_insts,
+            .fp8_insts,
+            .full_rate_64_ops,
+            .gfx9,
+            .gfx90a_insts,
+            .gfx940_insts,
+            .gfx950_insts,
+            .kernarg_preload,
+            .ldsbankcount32,
+            .lshl_add_u64_inst,
+            .mai_insts,
+            .memory_atomic_fadd_f32_denormal_support,
+            .packed_fp32_ops,
+            .packed_tid,
+            .pk_fmac_f16_inst,
+            .prng_inst,
+            .sramecc_support,
+        }),
+    };
+    pub const gfx9_4_generic: CpuModel = .{
+        .name = "gfx9_4_generic",
+        .llvm_name = "gfx9-4-generic",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .agent_scope_fine_grained_remote_memory_atomics,
+            .architected_flat_scratch,
+            .atomic_buffer_global_pk_add_f16_insts,
+            .atomic_ds_pk_add_16_insts,
+            .atomic_fadd_no_rtn_insts,
+            .atomic_fadd_rtn_insts,
+            .atomic_flat_pk_add_16_insts,
+            .atomic_fmin_fmax_flat_f64,
+            .atomic_fmin_fmax_global_f64,
+            .atomic_global_pk_add_bf16_inst,
+            .back_off_barrier,
+            .dl_insts,
+            .dot10_insts,
+            .dot1_insts,
+            .dot2_insts,
+            .dot3_insts,
+            .dot4_insts,
+            .dot5_insts,
+            .dot6_insts,
+            .dot7_insts,
+            .dpp_64bit,
+            .flat_atomic_fadd_f32_inst,
+            .flat_buffer_global_fadd_f64_inst,
+            .fma_mix_insts,
+            .fmacf64_inst,
+            .full_rate_64_ops,
+            .gfx9,
+            .gfx90a_insts,
+            .gfx940_insts,
+            .kernarg_preload,
+            .ldsbankcount32,
+            .lshl_add_u64_inst,
+            .mai_insts,
+            .memory_atomic_fadd_f32_denormal_support,
+            .packed_fp32_ops,
+            .packed_tid,
+            .pk_fmac_f16_inst,
+            .requires_cov6,
+            .sramecc_support,
+        }),
+    };
+    pub const gfx9_generic: CpuModel = .{
+        .name = "gfx9_generic",
+        .llvm_name = "gfx9-generic",
+        .features = featureSet(&[_]Feature{
+            .addressablelocalmemorysize65536,
+            .ds_src2_insts,
+            .extended_image_insts,
+            .gds,
+            .gfx9,
+            .image_gather4_d16_bug,
+            .image_insts,
+            .ldsbankcount32,
+            .mad_mac_f32_insts,
+            .requires_cov6,
+        }),
+    };
+    pub const hainan: CpuModel = .{
+        .name = "hainan",
+        .llvm_name = "hainan",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+    pub const hawaii: CpuModel = .{
+        .name = "hawaii",
+        .llvm_name = "hawaii",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .half_rate_64_ops,
+            .ldsbankcount32,
+            .sea_islands,
+        }),
+    };
+    pub const iceland: CpuModel = .{
+        .name = "iceland",
+        .llvm_name = "iceland",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sgpr_init_bug,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const kabini: CpuModel = .{
+        .name = "kabini",
+        .llvm_name = "kabini",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount16,
+            .sea_islands,
+        }),
+    };
+    pub const kaveri: CpuModel = .{
+        .name = "kaveri",
+        .llvm_name = "kaveri",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sea_islands,
+        }),
+    };
+    pub const mullins: CpuModel = .{
+        .name = "mullins",
+        .llvm_name = "mullins",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount16,
+            .sea_islands,
+        }),
+    };
+    pub const oland: CpuModel = .{
+        .name = "oland",
+        .llvm_name = "oland",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+    pub const pitcairn: CpuModel = .{
+        .name = "pitcairn",
+        .llvm_name = "pitcairn",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+    pub const polaris10: CpuModel = .{
+        .name = "polaris10",
+        .llvm_name = "polaris10",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const polaris11: CpuModel = .{
+        .name = "polaris11",
+        .llvm_name = "polaris11",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const stoney: CpuModel = .{
+        .name = "stoney",
+        .llvm_name = "stoney",
+        .features = featureSet(&[_]Feature{
+            .image_gather4_d16_bug,
+            .image_store_d16_bug,
+            .ldsbankcount16,
+            .volcanic_islands,
+            .xnack_support,
+        }),
+    };
+    pub const tahiti: CpuModel = .{
+        .name = "tahiti",
+        .llvm_name = "tahiti",
+        .features = featureSet(&[_]Feature{
+            .fast_fmaf,
+            .half_rate_64_ops,
+            .southern_islands,
+        }),
+    };
+    pub const tonga: CpuModel = .{
+        .name = "tonga",
+        .llvm_name = "tonga",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sgpr_init_bug,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const tongapro: CpuModel = .{
+        .name = "tongapro",
+        .llvm_name = "tongapro",
+        .features = featureSet(&[_]Feature{
+            .ldsbankcount32,
+            .sgpr_init_bug,
+            .unpacked_d16_vmem,
+            .volcanic_islands,
+        }),
+    };
+    pub const verde: CpuModel = .{
+        .name = "verde",
+        .llvm_name = "verde",
+        .features = featureSet(&[_]Feature{
+            .southern_islands,
+        }),
+    };
+};
+
+
+
+---
+File: /std/Target/arc.zig
+---
+
+//! This file is auto-generated by tools/update_cpu_features.zig.
+
+const std = @import("../std.zig");
+const CpuFeature = std.Target.Cpu.Feature;
+const CpuModel = std.Target.Cpu.Model;
+
+pub const Feature = enum {
+    norm,
+};
+
+pub const featureSet = CpuFeature.FeatureSetFns(Feature).featureSet;
+pub const featureSetHas = CpuFeature.FeatureSetFns(Feature).featureSetHas;
+pub const featureSetHasAny = CpuFeature.FeatureSetFns(Feature).featureSetHasAny;
+pub const featureSetHasAll = CpuFeature.FeatureSetFns(Feature).featureSetHasAll;
+
+pub const all_features = blk: {
+    const len = @typeInfo(Feature).@"enum".fields.len;
+    std.debug.assert(len <= CpuFeature.Set.needed_bit_count);
+    var result: [len]CpuFeature = undefined;
+    result[@intFromEnum(Feature.norm)] = .{
+        .llvm_name = "norm",
+        .description = "Enable support for norm instruction.",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    const ti = @typeInfo(Feature);
+    for (&result, 0..) |*elem, i| {
+        elem.index = i;
+        elem.name = ti.@"enum".fields[i].name;
+    }
+    break :blk result;
+};
+
+pub const cpu = struct {
+    pub const generic: CpuModel = .{
+        .name = "generic",
+        .llvm_name = "generic",
+        .features = featureSet(&[_]Feature{}),
+    };
+};
+
+
+
+---
+File: /std/Target/arm.zig
+---
+
+//! This file is auto-generated by tools/update_cpu_features.zig.
+
+const std = @import("../std.zig");
+const CpuFeature = std.Target.Cpu.Feature;
+const CpuModel = std.Target.Cpu.Model;
+
+pub const Feature = enum {
+    @"32bit",
+    @"8msecext",
+    aapcs_frame_chain,
+    aclass,
+    acquire_release,
+    aes,
+    atomics_32,
+    avoid_movs_shop,
+    avoid_muls,
+    avoid_partial_cpsr,
+    bf16,
+    big_endian_instructions,
+    branch_align_64,
+    cde,
+    cdecp0,
+    cdecp1,
+    cdecp2,
+    cdecp3,
+    cdecp4,
+    cdecp5,
+    cdecp6,
+    cdecp7,
+    cheap_predicable_cpsr,
+    clrbhb,
+    cortex_a510,
+    crc,
+    crypto,
+    d32,
+    db,
+    dfb,
+    disable_postra_scheduler,
+    dont_widen_vmovs,
+    dotprod,
+    dsp,
+    execute_only,
+    expand_fp_mlx,
+    fix_cmse_cve_2021_35465,
+    fix_cortex_a57_aes_1742098,
+    fp16,
+    fp16fml,
+    fp64,
+    fp_armv8,
+    fp_armv8d16,
+    fp_armv8d16sp,
+    fp_armv8sp,
+    fpao,
+    fpregs,
+    fpregs16,
+    fpregs64,
+    fullfp16,
+    fuse_aes,
+    fuse_literals,
+    harden_sls_blr,
+    harden_sls_nocomdat,
+    harden_sls_retbr,
+    has_v4t,
+    has_v5t,
+    has_v5te,
+    has_v6,
+    has_v6k,
+    has_v6m,
+    has_v6t2,
+    has_v7,
+    has_v7clrex,
+    has_v8,
+    has_v8_1a,
+    has_v8_1m_main,
+    has_v8_2a,
+    has_v8_3a,
+    has_v8_4a,
+    has_v8_5a,
+    has_v8_6a,
+    has_v8_7a,
+    has_v8_8a,
+    has_v8_9a,
+    has_v8m,
+    has_v8m_main,
+    has_v9_1a,
+    has_v9_2a,
+    has_v9_3a,
+    has_v9_4a,
+    has_v9_5a,
+    has_v9_6a,
+    has_v9a,
+    hwdiv,
+    hwdiv_arm,
+    i8mm,
+    iwmmxt,
+    iwmmxt2,
+    lob,
+    long_calls,
+    loop_align,
+    m55,
+    m85,
+    mclass,
+    mp,
+    muxed_units,
+    mve,
+    mve1beat,
+    mve2beat,
+    mve4beat,
+    mve_fp,
+    nacl_trap,
+    neon,
+    neon_fpmovs,
+    neonfp,
+    no_branch_predictor,
+    no_bti_at_return_twice,
+    no_movt,
+    no_neg_immediates,
+    noarm,
+    nonpipelined_vfp,
+    pacbti,
+    perfmon,
+    prefer_ishst,
+    prefer_vmovsr,
+    prof_unpr,
+    ras,
+    rclass,
+    read_tp_tpidrprw,
+    read_tp_tpidruro,
+    read_tp_tpidrurw,
+    reserve_r9,
+    ret_addr_stack,
+    sb,
+    sha2,
+    slow_fp_brcc,
+    slow_load_D_subreg,
+    slow_odd_reg,
+    slow_vdup32,
+    slow_vgetlni32,
+    slowfpvfmx,
+    slowfpvmlx,
+    soft_float,
+    splat_vfp_neon,
+    strict_align,
+    thumb2,
+    thumb_mode,
+    trustzone,
+    use_mipipeliner,
+    use_misched,
+    v2,
+    v2a,
+    v3,
+    v3m,
+    v4,
+    v4t,
+    v5t,
+    v5te,
+    v5tej,
+    v6,
+    v6j,
+    v6k,
+    v6kz,
+    v6m,
+    v6sm,
+    v6t2,
+    v7a,
+    v7em,
+    v7m,
+    v7r,
+    v7ve,
+    v8_1a,
+    v8_1m_main,
+    v8_2a,
+    v8_3a,
+    v8_4a,
+    v8_5a,
+    v8_6a,
+    v8_7a,
+    v8_8a,
+    v8_9a,
+    v8a,
+    v8m,
+    v8m_main,
+    v8r,
+    v9_1a,
+    v9_2a,
+    v9_3a,
+    v9_4a,
+    v9_5a,
+    v9_6a,
+    v9a,
+    vfp2,
+    vfp2sp,
+    vfp3,
+    vfp3d16,
+    vfp3d16sp,
+    vfp3sp,
+    vfp4,
+    vfp4d16,
+    vfp4d16sp,
+    vfp4sp,
+    virtualization,
+    vldn_align,
+    vmlx_forwarding,
+    vmlx_hazards,
+    wide_stride_vfp,
+    xscale,
+    zcz,
+};
+
+pub const featureSet = CpuFeature.FeatureSetFns(Feature).featureSet;
+pub const featureSetHas = CpuFeature.FeatureSetFns(Feature).featureSetHas;
+pub const featureSetHasAny = CpuFeature.FeatureSetFns(Feature).featureSetHasAny;
+pub const featureSetHasAll = CpuFeature.FeatureSetFns(Feature).featureSetHasAll;
+
+pub const all_features = blk: {
+    @setEvalBranchQuota(10000);
+    const len = @typeInfo(Feature).@"enum".fields.len;
+    std.debug.assert(len <= CpuFeature.Set.needed_bit_count);
+    var result: [len]CpuFeature = undefined;
+    result[@intFromEnum(Feature.@"32bit")] = .{
+        .llvm_name = "32bit",
+        .description = "Prefer 32-bit Thumb instrs",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.@"8msecext")] = .{
+        .llvm_name = "8msecext",
+        .description = "Enable support for ARMv8-M Security Extensions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.aapcs_frame_chain)] = .{
+        .llvm_name = "aapcs-frame-chain",
+        .description = "Create an AAPCS compliant frame chain",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.aclass)] = .{
+        .llvm_name = "aclass",
+        .description = "Is application profile ('A' series)",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.acquire_release)] = .{
+        .llvm_name = "acquire-release",
+        .description = "Has v8 acquire/release (lda/ldaex  etc) instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.aes)] = .{
+        .llvm_name = "aes",
+        .description = "Enable AES support",
+        .dependencies = featureSet(&[_]Feature{
+            .neon,
+        }),
+    };
+    result[@intFromEnum(Feature.atomics_32)] = .{
+        .llvm_name = "atomics-32",
+        .description = "Assume that lock-free 32-bit atomics are available",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.avoid_movs_shop)] = .{
+        .llvm_name = "avoid-movs-shop",
+        .description = "Avoid movs instructions with shifter operand",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.avoid_muls)] = .{
+        .llvm_name = "avoid-muls",
+        .description = "Avoid MULS instructions for M class cores",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.avoid_partial_cpsr)] = .{
+        .llvm_name = "avoid-partial-cpsr",
+        .description = "Avoid CPSR partial update for OOO execution",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.bf16)] = .{
+        .llvm_name = "bf16",
+        .description = "Enable support for BFloat16 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .neon,
+        }),
+    };
+    result[@intFromEnum(Feature.big_endian_instructions)] = .{
+        .llvm_name = "big-endian-instructions",
+        .description = "Expect instructions to be stored big-endian.",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.branch_align_64)] = .{
+        .llvm_name = "branch-align-64",
+        .description = "Prefer 64-bit alignment for branch targets",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.cde)] = .{
+        .llvm_name = "cde",
+        .description = "Support CDE instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8m_main,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp0)] = .{
+        .llvm_name = "cdecp0",
+        .description = "Coprocessor 0 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp1)] = .{
+        .llvm_name = "cdecp1",
+        .description = "Coprocessor 1 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp2)] = .{
+        .llvm_name = "cdecp2",
+        .description = "Coprocessor 2 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp3)] = .{
+        .llvm_name = "cdecp3",
+        .description = "Coprocessor 3 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp4)] = .{
+        .llvm_name = "cdecp4",
+        .description = "Coprocessor 4 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp5)] = .{
+        .llvm_name = "cdecp5",
+        .description = "Coprocessor 5 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp6)] = .{
+        .llvm_name = "cdecp6",
+        .description = "Coprocessor 6 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cdecp7)] = .{
+        .llvm_name = "cdecp7",
+        .description = "Coprocessor 7 ISA is CDEv1",
+        .dependencies = featureSet(&[_]Feature{
+            .cde,
+        }),
+    };
+    result[@intFromEnum(Feature.cheap_predicable_cpsr)] = .{
+        .llvm_name = "cheap-predicable-cpsr",
+        .description = "Disable +1 predication cost for instructions updating CPSR",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.clrbhb)] = .{
+        .llvm_name = "clrbhb",
+        .description = "Enable Clear BHB instruction",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.cortex_a510)] = .{
+        .llvm_name = "cortex-a510",
+        .description = "Cortex-A510 ARM processors",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.crc)] = .{
+        .llvm_name = "crc",
+        .description = "Enable support for CRC instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.crypto)] = .{
+        .llvm_name = "crypto",
+        .description = "Enable support for Cryptography extensions",
+        .dependencies = featureSet(&[_]Feature{
+            .aes,
+            .sha2,
+        }),
+    };
+    result[@intFromEnum(Feature.d32)] = .{
+        .llvm_name = "d32",
+        .description = "Extend FP to 32 double registers",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.db)] = .{
+        .llvm_name = "db",
+        .description = "Has data barrier (dmb/dsb) instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.dfb)] = .{
+        .llvm_name = "dfb",
+        .description = "Has full data barrier (dfb) instruction",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.disable_postra_scheduler)] = .{
+        .llvm_name = "disable-postra-scheduler",
+        .description = "Don't schedule again after register allocation",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.dont_widen_vmovs)] = .{
+        .llvm_name = "dont-widen-vmovs",
+        .description = "Don't widen VMOVS to VMOVD",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.dotprod)] = .{
+        .llvm_name = "dotprod",
+        .description = "Enable support for dot product instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .neon,
+        }),
+    };
+    result[@intFromEnum(Feature.dsp)] = .{
+        .llvm_name = "dsp",
+        .description = "Supports DSP instructions in ARM and/or Thumb2",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.execute_only)] = .{
+        .llvm_name = "execute-only",
+        .description = "Enable the generation of execute only code.",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.expand_fp_mlx)] = .{
+        .llvm_name = "expand-fp-mlx",
+        .description = "Expand VFP/NEON MLA/MLS instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fix_cmse_cve_2021_35465)] = .{
+        .llvm_name = "fix-cmse-cve-2021-35465",
+        .description = "Mitigate against the cve-2021-35465 security vulnurability",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fix_cortex_a57_aes_1742098)] = .{
+        .llvm_name = "fix-cortex-a57-aes-1742098",
+        .description = "Work around Cortex-A57 Erratum 1742098 / Cortex-A72 Erratum 1655431 (AES)",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fp16)] = .{
+        .llvm_name = "fp16",
+        .description = "Enable half-precision floating point",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fp16fml)] = .{
+        .llvm_name = "fp16fml",
+        .description = "Enable full half-precision floating point fml instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .fullfp16,
+        }),
+    };
+    result[@intFromEnum(Feature.fp64)] = .{
+        .llvm_name = "fp64",
+        .description = "Floating point unit supports double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .fpregs64,
+        }),
+    };
+    result[@intFromEnum(Feature.fp_armv8)] = .{
+        .llvm_name = "fp-armv8",
+        .description = "Enable ARMv8 FP",
+        .dependencies = featureSet(&[_]Feature{
+            .fp_armv8d16,
+            .fp_armv8sp,
+            .vfp4,
+        }),
+    };
+    result[@intFromEnum(Feature.fp_armv8d16)] = .{
+        .llvm_name = "fp-armv8d16",
+        .description = "Enable ARMv8 FP with only 16 d-registers",
+        .dependencies = featureSet(&[_]Feature{
+            .fp_armv8d16sp,
+            .vfp4d16,
+        }),
+    };
+    result[@intFromEnum(Feature.fp_armv8d16sp)] = .{
+        .llvm_name = "fp-armv8d16sp",
+        .description = "Enable ARMv8 FP with only 16 d-registers and no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp4d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.fp_armv8sp)] = .{
+        .llvm_name = "fp-armv8sp",
+        .description = "Enable ARMv8 FP with no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .fp_armv8d16sp,
+            .vfp4sp,
+        }),
+    };
+    result[@intFromEnum(Feature.fpao)] = .{
+        .llvm_name = "fpao",
+        .description = "Enable fast computation of positive address offsets",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fpregs)] = .{
+        .llvm_name = "fpregs",
+        .description = "Enable FP registers",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fpregs16)] = .{
+        .llvm_name = "fpregs16",
+        .description = "Enable 16-bit FP registers",
+        .dependencies = featureSet(&[_]Feature{
+            .fpregs,
+        }),
+    };
+    result[@intFromEnum(Feature.fpregs64)] = .{
+        .llvm_name = "fpregs64",
+        .description = "Enable 64-bit FP registers",
+        .dependencies = featureSet(&[_]Feature{
+            .fpregs,
+        }),
+    };
+    result[@intFromEnum(Feature.fullfp16)] = .{
+        .llvm_name = "fullfp16",
+        .description = "Enable full half-precision floating point",
+        .dependencies = featureSet(&[_]Feature{
+            .fp_armv8d16sp,
+            .fpregs16,
+        }),
+    };
+    result[@intFromEnum(Feature.fuse_aes)] = .{
+        .llvm_name = "fuse-aes",
+        .description = "CPU fuses AES crypto operations",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.fuse_literals)] = .{
+        .llvm_name = "fuse-literals",
+        .description = "CPU fuses literal generation operations",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.harden_sls_blr)] = .{
+        .llvm_name = "harden-sls-blr",
+        .description = "Harden against straight line speculation across indirect calls",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.harden_sls_nocomdat)] = .{
+        .llvm_name = "harden-sls-nocomdat",
+        .description = "Generate thunk code for SLS mitigation in the normal text section",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.harden_sls_retbr)] = .{
+        .llvm_name = "harden-sls-retbr",
+        .description = "Harden against straight line speculation across RETurn and BranchRegister instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.has_v4t)] = .{
+        .llvm_name = "v4t",
+        .description = "Support ARM v4T instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.has_v5t)] = .{
+        .llvm_name = "v5t",
+        .description = "Support ARM v5T instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v4t,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v5te)] = .{
+        .llvm_name = "v5te",
+        .description = "Support ARM v5TE, v5TEj, and v5TExp instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v5t,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v6)] = .{
+        .llvm_name = "v6",
+        .description = "Support ARM v6 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v5te,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v6k)] = .{
+        .llvm_name = "v6k",
+        .description = "Support ARM v6k instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v6m)] = .{
+        .llvm_name = "v6m",
+        .description = "Support ARM v6M instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v6t2)] = .{
+        .llvm_name = "v6t2",
+        .description = "Support ARM v6t2 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6k,
+            .has_v8m,
+            .thumb2,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v7)] = .{
+        .llvm_name = "v7",
+        .description = "Support ARM v7 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6t2,
+            .has_v7clrex,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v7clrex)] = .{
+        .llvm_name = "v7clrex",
+        .description = "Has v7 clrex instruction",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.has_v8)] = .{
+        .llvm_name = "v8",
+        .description = "Support ARM v8 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .acquire_release,
+            .has_v7,
+            .perfmon,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_1a)] = .{
+        .llvm_name = "v8.1a",
+        .description = "Support ARM v8.1a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_1m_main)] = .{
+        .llvm_name = "v8.1m.main",
+        .description = "Support ARM v8-1M Mainline instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8m_main,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_2a)] = .{
+        .llvm_name = "v8.2a",
+        .description = "Support ARM v8.2a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_1a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_3a)] = .{
+        .llvm_name = "v8.3a",
+        .description = "Support ARM v8.3a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_2a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_4a)] = .{
+        .llvm_name = "v8.4a",
+        .description = "Support ARM v8.4a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .dotprod,
+            .has_v8_3a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_5a)] = .{
+        .llvm_name = "v8.5a",
+        .description = "Support ARM v8.5a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_4a,
+            .sb,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_6a)] = .{
+        .llvm_name = "v8.6a",
+        .description = "Support ARM v8.6a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .bf16,
+            .has_v8_5a,
+            .i8mm,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_7a)] = .{
+        .llvm_name = "v8.7a",
+        .description = "Support ARM v8.7a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_6a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_8a)] = .{
+        .llvm_name = "v8.8a",
+        .description = "Support ARM v8.8a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_7a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8_9a)] = .{
+        .llvm_name = "v8.9a",
+        .description = "Support ARM v8.9a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .clrbhb,
+            .has_v8_8a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8m)] = .{
+        .llvm_name = "v8m",
+        .description = "Support ARM v8M Baseline instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6m,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v8m_main)] = .{
+        .llvm_name = "v8m.main",
+        .description = "Support ARM v8M Mainline instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v7,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_1a)] = .{
+        .llvm_name = "v9.1a",
+        .description = "Support ARM v9.1a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_6a,
+            .has_v9a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_2a)] = .{
+        .llvm_name = "v9.2a",
+        .description = "Support ARM v9.2a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_7a,
+            .has_v9_1a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_3a)] = .{
+        .llvm_name = "v9.3a",
+        .description = "Support ARM v9.3a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_8a,
+            .has_v9_2a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_4a)] = .{
+        .llvm_name = "v9.4a",
+        .description = "Support ARM v9.4a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_9a,
+            .has_v9_3a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_5a)] = .{
+        .llvm_name = "v9.5a",
+        .description = "Support ARM v9.5a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v9_4a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9_6a)] = .{
+        .llvm_name = "v9.6a",
+        .description = "Support ARM v9.6a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v9_5a,
+        }),
+    };
+    result[@intFromEnum(Feature.has_v9a)] = .{
+        .llvm_name = "v9a",
+        .description = "Support ARM v9a instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v8_5a,
+        }),
+    };
+    result[@intFromEnum(Feature.hwdiv)] = .{
+        .llvm_name = "hwdiv",
+        .description = "Enable divide instructions in Thumb",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.hwdiv_arm)] = .{
+        .llvm_name = "hwdiv-arm",
+        .description = "Enable divide instructions in ARM mode",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.i8mm)] = .{
+        .llvm_name = "i8mm",
+        .description = "Enable Matrix Multiply Int8 Extension",
+        .dependencies = featureSet(&[_]Feature{
+            .neon,
+        }),
+    };
+    result[@intFromEnum(Feature.iwmmxt)] = .{
+        .llvm_name = "iwmmxt",
+        .description = "ARMv5te architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    result[@intFromEnum(Feature.iwmmxt2)] = .{
+        .llvm_name = "iwmmxt2",
+        .description = "ARMv5te architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    result[@intFromEnum(Feature.lob)] = .{
+        .llvm_name = "lob",
+        .description = "Enable Low Overhead Branch extensions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.long_calls)] = .{
+        .llvm_name = "long-calls",
+        .description = "Generate calls via indirect call instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.loop_align)] = .{
+        .llvm_name = "loop-align",
+        .description = "Prefer 32-bit alignment for branch targets",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.m55)] = .{
+        .llvm_name = "m55",
+        .description = "Cortex-M55 ARM processors",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.m85)] = .{
+        .llvm_name = "m85",
+        .description = "Cortex-M85 ARM processors",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mclass)] = .{
+        .llvm_name = "mclass",
+        .description = "Is microcontroller profile ('M' series)",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mp)] = .{
+        .llvm_name = "mp",
+        .description = "Supports Multiprocessing extension",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.muxed_units)] = .{
+        .llvm_name = "muxed-units",
+        .description = "Has muxed AGU and NEON/FPU",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mve)] = .{
+        .llvm_name = "mve",
+        .description = "Support M-Class Vector Extension with integer ops",
+        .dependencies = featureSet(&[_]Feature{
+            .dsp,
+            .fpregs16,
+            .fpregs64,
+            .has_v8_1m_main,
+        }),
+    };
+    result[@intFromEnum(Feature.mve1beat)] = .{
+        .llvm_name = "mve1beat",
+        .description = "Model MVE instructions as a 1 beat per tick architecture",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mve2beat)] = .{
+        .llvm_name = "mve2beat",
+        .description = "Model MVE instructions as a 2 beats per tick architecture",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mve4beat)] = .{
+        .llvm_name = "mve4beat",
+        .description = "Model MVE instructions as a 4 beats per tick architecture",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.mve_fp)] = .{
+        .llvm_name = "mve.fp",
+        .description = "Support M-Class Vector Extension with integer and floating ops",
+        .dependencies = featureSet(&[_]Feature{
+            .fullfp16,
+            .mve,
+        }),
+    };
+    result[@intFromEnum(Feature.nacl_trap)] = .{
+        .llvm_name = "nacl-trap",
+        .description = "NaCl trap",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.neon)] = .{
+        .llvm_name = "neon",
+        .description = "Enable NEON instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp3,
+        }),
+    };
+    result[@intFromEnum(Feature.neon_fpmovs)] = .{
+        .llvm_name = "neon-fpmovs",
+        .description = "Convert VMOVSR, VMOVRS, VMOVS to NEON",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.neonfp)] = .{
+        .llvm_name = "neonfp",
+        .description = "Use NEON for single precision FP",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.no_branch_predictor)] = .{
+        .llvm_name = "no-branch-predictor",
+        .description = "Has no branch predictor",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.no_bti_at_return_twice)] = .{
+        .llvm_name = "no-bti-at-return-twice",
+        .description = "Don't place a BTI instruction after a return-twice",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.no_movt)] = .{
+        .llvm_name = "no-movt",
+        .description = "Don't use movt/movw pairs for 32-bit imms",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.no_neg_immediates)] = .{
+        .llvm_name = "no-neg-immediates",
+        .description = "Convert immediates and instructions to their negated or complemented equivalent when the immediate does not fit in the encoding.",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.noarm)] = .{
+        .llvm_name = "noarm",
+        .description = "Does not support ARM mode execution",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.nonpipelined_vfp)] = .{
+        .llvm_name = "nonpipelined-vfp",
+        .description = "VFP instructions are not pipelined",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.pacbti)] = .{
+        .llvm_name = "pacbti",
+        .description = "Enable Pointer Authentication and Branch Target Identification",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.perfmon)] = .{
+        .llvm_name = "perfmon",
+        .description = "Enable support for Performance Monitor extensions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.prefer_ishst)] = .{
+        .llvm_name = "prefer-ishst",
+        .description = "Prefer ISHST barriers",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.prefer_vmovsr)] = .{
+        .llvm_name = "prefer-vmovsr",
+        .description = "Prefer VMOVSR",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.prof_unpr)] = .{
+        .llvm_name = "prof-unpr",
+        .description = "Is profitable to unpredicate",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.ras)] = .{
+        .llvm_name = "ras",
+        .description = "Enable Reliability, Availability and Serviceability extensions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.rclass)] = .{
+        .llvm_name = "rclass",
+        .description = "Is realtime profile ('R' series)",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.read_tp_tpidrprw)] = .{
+        .llvm_name = "read-tp-tpidrprw",
+        .description = "Reading thread pointer from TPIDRPRW register",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.read_tp_tpidruro)] = .{
+        .llvm_name = "read-tp-tpidruro",
+        .description = "Reading thread pointer from TPIDRURO register",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.read_tp_tpidrurw)] = .{
+        .llvm_name = "read-tp-tpidrurw",
+        .description = "Reading thread pointer from TPIDRURW register",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.reserve_r9)] = .{
+        .llvm_name = "reserve-r9",
+        .description = "Reserve R9, making it unavailable as GPR",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.ret_addr_stack)] = .{
+        .llvm_name = "ret-addr-stack",
+        .description = "Has return address stack",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.sb)] = .{
+        .llvm_name = "sb",
+        .description = "Enable v8.5a Speculation Barrier",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.sha2)] = .{
+        .llvm_name = "sha2",
+        .description = "Enable SHA1 and SHA256 support",
+        .dependencies = featureSet(&[_]Feature{
+            .neon,
+        }),
+    };
+    result[@intFromEnum(Feature.slow_fp_brcc)] = .{
+        .llvm_name = "slow-fp-brcc",
+        .description = "FP compare + branch is slow",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slow_load_D_subreg)] = .{
+        .llvm_name = "slow-load-D-subreg",
+        .description = "Loading into D subregs is slow",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slow_odd_reg)] = .{
+        .llvm_name = "slow-odd-reg",
+        .description = "VLDM/VSTM starting with an odd register is slow",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slow_vdup32)] = .{
+        .llvm_name = "slow-vdup32",
+        .description = "Has slow VDUP32 - prefer VMOV",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slow_vgetlni32)] = .{
+        .llvm_name = "slow-vgetlni32",
+        .description = "Has slow VGETLNi32 - prefer VMOV",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slowfpvfmx)] = .{
+        .llvm_name = "slowfpvfmx",
+        .description = "Disable VFP / NEON FMA instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.slowfpvmlx)] = .{
+        .llvm_name = "slowfpvmlx",
+        .description = "Disable VFP / NEON MAC instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.soft_float)] = .{
+        .llvm_name = "soft-float",
+        .description = "Use software floating point features.",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.splat_vfp_neon)] = .{
+        .llvm_name = "splat-vfp-neon",
+        .description = "Splat register from VFP to NEON",
+        .dependencies = featureSet(&[_]Feature{
+            .dont_widen_vmovs,
+        }),
+    };
+    result[@intFromEnum(Feature.strict_align)] = .{
+        .llvm_name = "strict-align",
+        .description = "Disallow all unaligned memory access",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.thumb2)] = .{
+        .llvm_name = "thumb2",
+        .description = "Enable Thumb2 instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.thumb_mode)] = .{
+        .llvm_name = "thumb-mode",
+        .description = "Thumb mode",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.trustzone)] = .{
+        .llvm_name = "trustzone",
+        .description = "Enable support for TrustZone security extensions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.use_mipipeliner)] = .{
+        .llvm_name = "use-mipipeliner",
+        .description = "Use the MachinePipeliner",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.use_misched)] = .{
+        .llvm_name = "use-misched",
+        .description = "Use the MachineScheduler",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.v2)] = .{
+        .llvm_name = null,
+        .description = "ARMv2 architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v2a)] = .{
+        .llvm_name = null,
+        .description = "ARMv2a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v3)] = .{
+        .llvm_name = null,
+        .description = "ARMv3 architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v3m)] = .{
+        .llvm_name = null,
+        .description = "ARMv3m architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v4)] = .{
+        .llvm_name = "armv4",
+        .description = "ARMv4 architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v4t)] = .{
+        .llvm_name = "armv4t",
+        .description = "ARMv4t architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v4t,
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v5t)] = .{
+        .llvm_name = "armv5t",
+        .description = "ARMv5t architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v5t,
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v5te)] = .{
+        .llvm_name = "armv5te",
+        .description = "ARMv5te architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v5te,
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v5tej)] = .{
+        .llvm_name = "armv5tej",
+        .description = "ARMv5tej architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v5te,
+            .strict_align,
+        }),
+    };
+    result[@intFromEnum(Feature.v6)] = .{
+        .llvm_name = "armv6",
+        .description = "ARMv6 architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .dsp,
+            .has_v6,
+        }),
+    };
+    result[@intFromEnum(Feature.v6j)] = .{
+        .llvm_name = "armv6j",
+        .description = "ARMv7a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .v6,
+        }),
+    };
+    result[@intFromEnum(Feature.v6k)] = .{
+        .llvm_name = "armv6k",
+        .description = "ARMv6k architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6k,
+        }),
+    };
+    result[@intFromEnum(Feature.v6kz)] = .{
+        .llvm_name = "armv6kz",
+        .description = "ARMv6kz architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .has_v6k,
+            .trustzone,
+        }),
+    };
+    result[@intFromEnum(Feature.v6m)] = .{
+        .llvm_name = "armv6-m",
+        .description = "ARMv6m architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .db,
+            .has_v6m,
+            .mclass,
+            .noarm,
+            .strict_align,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v6sm)] = .{
+        .llvm_name = "armv6s-m",
+        .description = "ARMv6sm architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .db,
+            .has_v6m,
+            .mclass,
+            .noarm,
+            .strict_align,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v6t2)] = .{
+        .llvm_name = "armv6t2",
+        .description = "ARMv6t2 architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .dsp,
+            .has_v6t2,
+        }),
+    };
+    result[@intFromEnum(Feature.v7a)] = .{
+        .llvm_name = "armv7-a",
+        .description = "ARMv7a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .db,
+            .dsp,
+            .has_v7,
+            .neon,
+            .perfmon,
+        }),
+    };
+    result[@intFromEnum(Feature.v7em)] = .{
+        .llvm_name = "armv7e-m",
+        .description = "ARMv7em architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .db,
+            .dsp,
+            .has_v7,
+            .hwdiv,
+            .mclass,
+            .noarm,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v7m)] = .{
+        .llvm_name = "armv7-m",
+        .description = "ARMv7m architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .db,
+            .has_v7,
+            .hwdiv,
+            .mclass,
+            .noarm,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v7r)] = .{
+        .llvm_name = "armv7-r",
+        .description = "ARMv7r architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .db,
+            .dsp,
+            .has_v7,
+            .hwdiv,
+            .perfmon,
+            .rclass,
+        }),
+    };
+    result[@intFromEnum(Feature.v7ve)] = .{
+        .llvm_name = "armv7ve",
+        .description = "ARMv7ve architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .db,
+            .dsp,
+            .has_v7,
+            .mp,
+            .neon,
+            .perfmon,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_1a)] = .{
+        .llvm_name = "armv8.1-a",
+        .description = "ARMv81a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_1a,
+            .mp,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_1m_main)] = .{
+        .llvm_name = "armv8.1-m.main",
+        .description = "ARMv81mMainline architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .@"8msecext",
+            .acquire_release,
+            .db,
+            .has_v8_1m_main,
+            .hwdiv,
+            .lob,
+            .mclass,
+            .noarm,
+            .ras,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_2a)] = .{
+        .llvm_name = "armv8.2-a",
+        .description = "ARMv82a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_2a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_3a)] = .{
+        .llvm_name = "armv8.3-a",
+        .description = "ARMv83a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_3a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_4a)] = .{
+        .llvm_name = "armv8.4-a",
+        .description = "ARMv84a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_4a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_5a)] = .{
+        .llvm_name = "armv8.5-a",
+        .description = "ARMv85a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_5a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_6a)] = .{
+        .llvm_name = "armv8.6-a",
+        .description = "ARMv86a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_6a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_7a)] = .{
+        .llvm_name = "armv8.7-a",
+        .description = "ARMv87a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_7a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_8a)] = .{
+        .llvm_name = "armv8.8-a",
+        .description = "ARMv88a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_8a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8_9a)] = .{
+        .llvm_name = "armv8.9-a",
+        .description = "ARMv89a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8_9a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8a)] = .{
+        .llvm_name = "armv8-a",
+        .description = "ARMv8a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v8,
+            .mp,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v8m)] = .{
+        .llvm_name = "armv8-m.base",
+        .description = "ARMv8mBaseline architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .@"8msecext",
+            .acquire_release,
+            .db,
+            .has_v7clrex,
+            .has_v8m,
+            .hwdiv,
+            .mclass,
+            .noarm,
+            .strict_align,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v8m_main)] = .{
+        .llvm_name = "armv8-m.main",
+        .description = "ARMv8mMainline architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .@"8msecext",
+            .acquire_release,
+            .db,
+            .has_v8m_main,
+            .hwdiv,
+            .mclass,
+            .noarm,
+            .thumb_mode,
+        }),
+    };
+    result[@intFromEnum(Feature.v8r)] = .{
+        .llvm_name = "armv8-r",
+        .description = "ARMv8r architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .crc,
+            .db,
+            .dfb,
+            .dsp,
+            .fp_armv8d16sp,
+            .has_v8,
+            .mp,
+            .rclass,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_1a)] = .{
+        .llvm_name = "armv9.1-a",
+        .description = "ARMv91a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_1a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_2a)] = .{
+        .llvm_name = "armv9.2-a",
+        .description = "ARMv92a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_2a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_3a)] = .{
+        .llvm_name = "armv9.3-a",
+        .description = "ARMv93a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .crypto,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_3a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_4a)] = .{
+        .llvm_name = "armv9.4-a",
+        .description = "ARMv94a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_4a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_5a)] = .{
+        .llvm_name = "armv9.5-a",
+        .description = "ARMv95a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_5a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9_6a)] = .{
+        .llvm_name = "armv9.6-a",
+        .description = "ARMv96a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9_6a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.v9a)] = .{
+        .llvm_name = "armv9-a",
+        .description = "ARMv9a architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .aclass,
+            .crc,
+            .db,
+            .dsp,
+            .fp_armv8,
+            .has_v9a,
+            .mp,
+            .ras,
+            .trustzone,
+            .virtualization,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp2)] = .{
+        .llvm_name = "vfp2",
+        .description = "Enable VFP2 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .fp64,
+            .vfp2sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp2sp)] = .{
+        .llvm_name = "vfp2sp",
+        .description = "Enable VFP2 instructions with no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .fpregs,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp3)] = .{
+        .llvm_name = "vfp3",
+        .description = "Enable VFP3 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp3d16,
+            .vfp3sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp3d16)] = .{
+        .llvm_name = "vfp3d16",
+        .description = "Enable VFP3 instructions with only 16 d-registers",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp2,
+            .vfp3d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp3d16sp)] = .{
+        .llvm_name = "vfp3d16sp",
+        .description = "Enable VFP3 instructions with only 16 d-registers and no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp2sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp3sp)] = .{
+        .llvm_name = "vfp3sp",
+        .description = "Enable VFP3 instructions with no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .d32,
+            .vfp3d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp4)] = .{
+        .llvm_name = "vfp4",
+        .description = "Enable VFP4 instructions",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp3,
+            .vfp4d16,
+            .vfp4sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp4d16)] = .{
+        .llvm_name = "vfp4d16",
+        .description = "Enable VFP4 instructions with only 16 d-registers",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp3d16,
+            .vfp4d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp4d16sp)] = .{
+        .llvm_name = "vfp4d16sp",
+        .description = "Enable VFP4 instructions with only 16 d-registers and no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .fp16,
+            .vfp3d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.vfp4sp)] = .{
+        .llvm_name = "vfp4sp",
+        .description = "Enable VFP4 instructions with no double precision",
+        .dependencies = featureSet(&[_]Feature{
+            .vfp3sp,
+            .vfp4d16sp,
+        }),
+    };
+    result[@intFromEnum(Feature.virtualization)] = .{
+        .llvm_name = "virtualization",
+        .description = "Supports Virtualization extension",
+        .dependencies = featureSet(&[_]Feature{
+            .hwdiv,
+            .hwdiv_arm,
+        }),
+    };
+    result[@intFromEnum(Feature.vldn_align)] = .{
+        .llvm_name = "vldn-align",
+        .description = "Check for VLDn unaligned access",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.vmlx_forwarding)] = .{
+        .llvm_name = "vmlx-forwarding",
+        .description = "Has multiplier accumulator forwarding",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.vmlx_hazards)] = .{
+        .llvm_name = "vmlx-hazards",
+        .description = "Has VMLx hazards",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.wide_stride_vfp)] = .{
+        .llvm_name = "wide-stride-vfp",
+        .description = "Use a wide stride when allocating VFP registers",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    result[@intFromEnum(Feature.xscale)] = .{
+        .llvm_name = "xscale",
+        .description = "ARMv5te architecture",
+        .dependencies = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    result[@intFromEnum(Feature.zcz)] = .{
+        .llvm_name = "zcz",
+        .description = "Has zero-cycle zeroing instructions",
+        .dependencies = featureSet(&[_]Feature{}),
+    };
+    const ti = @typeInfo(Feature);
+    for (&result, 0..) |*elem, i| {
+        elem.index = i;
+        elem.name = ti.@"enum".fields[i].name;
+    }
+    break :blk result;
+};
+
+pub const cpu = struct {
+    pub const arm1020e: CpuModel = .{
+        .name = "arm1020e",
+        .llvm_name = "arm1020e",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm1020t: CpuModel = .{
+        .name = "arm1020t",
+        .llvm_name = "arm1020t",
+        .features = featureSet(&[_]Feature{
+            .v5t,
+        }),
+    };
+    pub const arm1022e: CpuModel = .{
+        .name = "arm1022e",
+        .llvm_name = "arm1022e",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm10e: CpuModel = .{
+        .name = "arm10e",
+        .llvm_name = "arm10e",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm10tdmi: CpuModel = .{
+        .name = "arm10tdmi",
+        .llvm_name = "arm10tdmi",
+        .features = featureSet(&[_]Feature{
+            .v5t,
+        }),
+    };
+    pub const arm1136j_s: CpuModel = .{
+        .name = "arm1136j_s",
+        .llvm_name = "arm1136j-s",
+        .features = featureSet(&[_]Feature{
+            .v6,
+        }),
+    };
+    pub const arm1136jf_s: CpuModel = .{
+        .name = "arm1136jf_s",
+        .llvm_name = "arm1136jf-s",
+        .features = featureSet(&[_]Feature{
+            .slowfpvmlx,
+            .v6,
+            .vfp2,
+        }),
+    };
+    pub const arm1156t2_s: CpuModel = .{
+        .name = "arm1156t2_s",
+        .llvm_name = "arm1156t2-s",
+        .features = featureSet(&[_]Feature{
+            .v6t2,
+        }),
+    };
+    pub const arm1156t2f_s: CpuModel = .{
+        .name = "arm1156t2f_s",
+        .llvm_name = "arm1156t2f-s",
+        .features = featureSet(&[_]Feature{
+            .slowfpvmlx,
+            .v6t2,
+            .vfp2,
+        }),
+    };
+    pub const arm1176jz_s: CpuModel = .{
+        .name = "arm1176jz_s",
+        .llvm_name = "arm1176jz-s",
+        .features = featureSet(&[_]Feature{
+            .v6kz,
+        }),
+    };
+    pub const arm1176jzf_s: CpuModel = .{
+        .name = "arm1176jzf_s",
+        .llvm_name = "arm1176jzf-s",
+        .features = featureSet(&[_]Feature{
+            .slowfpvmlx,
+            .v6kz,
+            .vfp2,
+        }),
+    };
+    pub const arm710t: CpuModel = .{
+        .name = "arm710t",
+        .llvm_name = "arm710t",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm720t: CpuModel = .{
+        .name = "arm720t",
+        .llvm_name = "arm720t",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm7tdmi: CpuModel = .{
+        .name = "arm7tdmi",
+        .llvm_name = "arm7tdmi",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm7tdmi_s: CpuModel = .{
+        .name = "arm7tdmi_s",
+        .llvm_name = "arm7tdmi-s",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm8: CpuModel = .{
+        .name = "arm8",
+        .llvm_name = "arm8",
+        .features = featureSet(&[_]Feature{
+            .v4,
+        }),
+    };
+    pub const arm810: CpuModel = .{
+        .name = "arm810",
+        .llvm_name = "arm810",
+        .features = featureSet(&[_]Feature{
+            .v4,
+        }),
+    };
+    pub const arm9: CpuModel = .{
+        .name = "arm9",
+        .llvm_name = "arm9",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm920: CpuModel = .{
+        .name = "arm920",
+        .llvm_name = "arm920",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm920t: CpuModel = .{
+        .name = "arm920t",
+        .llvm_name = "arm920t",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm922t: CpuModel = .{
+        .name = "arm922t",
+        .llvm_name = "arm922t",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm926ej_s: CpuModel = .{
+        .name = "arm926ej_s",
+        .llvm_name = "arm926ej-s",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm940t: CpuModel = .{
+        .name = "arm940t",
+        .llvm_name = "arm940t",
+        .features = featureSet(&[_]Feature{
+            .v4t,
+        }),
+    };
+    pub const arm946e_s: CpuModel = .{
+        .name = "arm946e_s",
+        .llvm_name = "arm946e-s",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm966e_s: CpuModel = .{
+        .name = "arm966e_s",
+        .llvm_name = "arm966e-s",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm968e_s: CpuModel = .{
+        .name = "arm968e_s",
+        .llvm_name = "arm968e-s",
+        .features = featureSet(&[_]Feature{
+            .v5te,
+        }),
+    };
+    pub const arm9e
+```
